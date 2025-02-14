@@ -62,6 +62,10 @@
   flex-shrink: 0;
   max-width: 100%;
   gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-inter);
 }
 
 @media screen and (max-width: 1275px) {
