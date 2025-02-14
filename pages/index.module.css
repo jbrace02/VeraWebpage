@@ -1,4 +1,26 @@
-.headerBg7Icon {
+.abstractGreenBackgroundLigh {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.bg {
+  align-self: stretch;
+  height: 1076px;
+  position: relative;
+  display: none;
+  z-index: 0;
+}
+.b034ab39da047c7Ac04A544718 {
+  align-self: stretch;
+  height: 1080px;
+  position: relative;
+  display: none;
+  z-index: 1;
+}
+.headerBg8Icon {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -6,55 +28,22 @@
   height: 100%;
   object-fit: cover;
 }
-.bgChild {
+.frameChild {
   position: absolute;
   top: 0px;
-  left: 1px;
+  left: 0px;
   width: 100%;
   height: 100%;
   z-index: 3;
 }
-.bg {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-}
-.bgParent {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100%;
-}
-.mainContent {
+.headerBg8Parent {
   width: 100%;
   height: 1080px;
   position: absolute;
   margin: 0 !important;
-  top: 0px;
+  top: 4px;
   right: 0px;
   left: 0px;
-}
-.vectorIcon {
-  width: 822px;
-  height: 947px;
-  position: absolute;
-  margin: 0 !important;
-  bottom: 165px;
-  left: -571px;
-}
-.missionXl1920x1080Inner {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-end;
-  padding: 0px var(--padding-10xs) 0px 0px;
-  box-sizing: border-box;
-  max-width: 100%;
 }
 .noise {
   width: 1440px;
@@ -86,7 +75,17 @@
   max-width: 100%;
   z-index: 5;
 }
-.ourMission {
+.navigationWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px var(--padding-4xl) 36px var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.truthchainRoadmap {
   margin: 0;
   align-self: stretch;
   position: relative;
@@ -100,19 +99,17 @@
     0px 4px 7px rgba(39, 255, 87, 0.53);
   z-index: 4;
 }
-.keepingAiAccountable {
+.truthIsA {
   align-self: stretch;
   position: relative;
   line-height: 34px;
-  font-family: var(--font-digital-7);
   background: linear-gradient(90deg, #00fff2, #fff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-align: center;
   text-shadow: 0px 4px 23px rgba(0, 255, 242, 0.4);
   z-index: 4;
 }
-.aiIsEvolving {
+.sinceOurJanuary {
   position: relative;
   letter-spacing: -0.02em;
   font-weight: 500;
@@ -131,49 +128,68 @@
   -webkit-text-fill-color: transparent;
   z-index: 4;
 }
-.truthIsBuilding {
+.communityDescription {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.membersStrong {
+  margin: 0;
+}
+.membersStrongContainer {
   position: relative;
   letter-spacing: -0.02em;
   line-height: 32px;
   font-weight: 500;
   z-index: 4;
 }
-.whoEnsuresAiRemainsHonestParent {
-  align-self: stretch;
+.communityContent {
+  width: 730px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-base);
+  max-width: 100%;
 }
-.llmsCanMislead {
-  margin: 0;
+.communityContentWrapper {
+  width: 960px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-inter);
 }
-.onChainAiMonitoringContainer {
-  position: relative;
-  letter-spacing: -0.02em;
-  line-height: 32px;
-  font-weight: 500;
+.truthIsARevolutionNotJusParent {
+  width: 986px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-61xl);
+  max-width: 100%;
 }
-.joinTheMovement {
+.roadmapDescription {
   align-self: stretch;
-  position: relative;
-  letter-spacing: -0.02em;
-  font-weight: 500;
-  background: linear-gradient(90deg, #00fff2, #fff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-5xl);
 }
-.joinTelegramhttpstmetr {
-  position: relative;
-  letter-spacing: -0.02em;
-  font-weight: 500;
-  background: linear-gradient(90deg, #00fff2, #fff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.aiContent {
-  width: 730px;
+.roadmapContent {
+  width: 1244px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -181,23 +197,26 @@
   gap: var(--gap-5xl);
   max-width: 100%;
 }
-.aiDescription {
-  width: 960px;
+.roadmapContentWrapper {
+  align-self: stretch;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  padding: 0px var(--padding-xl) var(--padding-61xl);
+  padding: 0px var(--padding-xl) var(--padding-61xl) 46px;
   box-sizing: border-box;
   max-width: 100%;
-  font-size: var(--font-size-lg);
+  text-align: center;
+  font-size: var(--font-size-77xl);
+  color: var(--color-white);
+  font-family: var(--font-digital-7);
 }
 .backIcon {
   width: 11.8px;
   height: 20px;
   position: relative;
 }
-.backIconWrapper {
+.backButtonContent {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -212,14 +231,6 @@
   display: inline-block;
   min-width: 78px;
 }
-.buttonSecondary {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: var(--gap-base);
-  cursor: pointer;
-}
 .buttonSmallCa {
   align-self: stretch;
   box-shadow: 0px 1px 12px #00fff2, 0px 0px 6px #00fff2 inset;
@@ -230,157 +241,90 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-sm) var(--padding-11xl) var(--padding-sm)
+  padding: var(--padding-sm) var(--padding-10xl) var(--padding-sm)
     var(--padding-13xl);
+  gap: var(--gap-base);
 }
 .buttonSmallCaWrapper {
-  height: 56px;
+  height: 136px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0px var(--padding-361xl);
+  padding: 0px 860px var(--padding-61xl);
   box-sizing: border-box;
   max-width: 100%;
-  font-size: var(--font-size-xl);
 }
-.descriptionContent {
-  width: 986px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: var(--gap-61xl);
-  max-width: 100%;
-}
-.missionDescription {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
-  padding: 0px var(--padding-xl);
-  box-sizing: border-box;
-  max-width: 100%;
-  text-align: left;
-  font-size: var(--font-size-5xl);
-  font-family: var(--font-inter);
-}
-.missionContent {
-  width: 1244px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: var(--gap-5xl);
-  flex-shrink: 0;
-  max-width: 100%;
-}
-.missionContentWrapper {
-  width: 1474px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
-  padding: 0px 0px var(--padding-24xl);
-  box-sizing: border-box;
-  max-width: 100%;
-  flex-shrink: 0;
-  text-align: center;
-  font-size: var(--font-size-77xl);
-  color: var(--color-white);
-  font-family: var(--font-digital-7);
-}
-.vectorIcon1 {
-  margin-right: -491px;
-  width: 822px;
-  height: 947px;
-  position: relative;
-  flex-shrink: 0;
-  max-width: 100%;
-}
-.missionXl1920x1080 {
+.roadmapXl1920x1080 {
   width: 100%;
-  height: 2635px;
   position: relative;
   background-color: var(--dark-border-disabled);
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-13xl) var(--padding-191xl) 98px;
+  padding: var(--padding-13xl) 0px 119px;
   box-sizing: border-box;
-  gap: 116px;
+  gap: var(--gap-61xl);
   line-height: normal;
   letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
 }
 
-@media screen and (max-width: 1600px) {
-  .missionXl1920x1080 {
-    height: auto;
+@media screen and (max-width: 1400px) {
+  .truthIsARevolutionNotJusParent {
+    gap: var(--gap-21xl);
+  }
+
+  .roadmapContentWrapper {
+    padding-left: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+
+  .buttonSmallCaWrapper {
+    padding-left: var(--padding-411xl);
+    padding-right: var(--padding-411xl);
+    box-sizing: border-box;
+  }
+
+  .roadmapXl1920x1080 {
+    gap: var(--gap-21xl);
   }
 }
-@media screen and (max-width: 1275px) {
-  .aiDescription {
+@media screen and (max-width: 950px) {
+  .truthchainRoadmap {
+    font-size: var(--font-size-29xl);
+  }
+
+  .truthIsARevolutionNotJusParent {
+    gap: var(--gap-xl);
+  }
+
+  .roadmapContentWrapper {
     padding-bottom: var(--padding-33xl);
     box-sizing: border-box;
   }
 
   .buttonSmallCaWrapper {
-    padding-left: var(--padding-171xl);
-    padding-right: var(--padding-171xl);
+    padding-left: var(--padding-196xl);
+    padding-right: var(--padding-196xl);
     box-sizing: border-box;
   }
 
-  .descriptionContent {
-    gap: var(--gap-21xl);
-  }
-
-  .missionContentWrapper {
-    padding-bottom: var(--padding-9xl);
-    box-sizing: border-box;
-  }
-
-  .missionXl1920x1080 {
-    gap: 58px;
-    padding-left: var(--padding-86xl);
-    padding-right: var(--padding-86xl);
-    box-sizing: border-box;
-  }
-}
-@media screen and (max-width: 900px) {
-  .ourMission {
-    font-size: var(--font-size-29xl);
-  }
-
-  .aiDescription {
-    padding-bottom: var(--padding-15xl);
-    box-sizing: border-box;
-  }
-
-  .descriptionContent {
+  .roadmapXl1920x1080 {
     gap: var(--gap-xl);
-  }
-
-  .missionContentWrapper {
-    padding-bottom: var(--padding-xl);
-    box-sizing: border-box;
-  }
-
-  .missionXl1920x1080 {
-    gap: 29px;
-    padding-left: var(--padding-33xl);
-    padding-right: var(--padding-33xl);
-    box-sizing: border-box;
   }
 }
 @media screen and (max-width: 450px) {
-  .ourMission {
+  .truthchainRoadmap {
     font-size: var(--font-size-10xl);
   }
 
-  .keepingAiAccountable {
+  .truthIsA {
     font-size: var(--font-size-lgi);
     line-height: 27px;
   }
@@ -391,8 +335,8 @@
   }
 
   .buttonSmallCaWrapper {
-    padding-left: var(--padding-76xl);
-    padding-right: var(--padding-76xl);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
     box-sizing: border-box;
   }
 }

@@ -20,7 +20,7 @@ const FrameComponent3: NextPage<FrameComponent3Type> = ({
   againstMisinformation,
   misinformationThrivesInThe,
 }) => {
-  const frameDiv1Style: CSSProperties = useMemo(() => {
+  const frameDiv2Style: CSSProperties = useMemo(() => {
     return {
       padding: frameDivPadding,
     };
@@ -29,7 +29,7 @@ const FrameComponent3: NextPage<FrameComponent3Type> = ({
   return (
     <div
       className={[styles.frameParent, className].join(" ")}
-      style={frameDiv1Style}
+      style={frameDiv2Style}
     >
       <div className={styles.maskGroupParent}>
         <Image

@@ -29,7 +29,8 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-sm) 29px var(--padding-sm) var(--padding-13xl);
+  padding: var(--padding-sm) var(--padding-10xl) var(--padding-sm)
+    var(--padding-13xl);
   gap: var(--gap-base);
   line-height: normal;
   letter-spacing: normal;

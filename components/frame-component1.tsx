@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import { useCallback } from "react";
+import { useMemo, type CSSProperties, useCallback } from "react";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import Button from "./button";
@@ -9,9 +9,26 @@ import styles from "./frame-component1.module.css";
 
 export type FrameComponent1Type = {
   className?: string;
+  logoVerafy4: string;
+
+  /** Style props */
+  frameDivFlex?: CSSProperties["flex"];
+  frameDivWidth?: CSSProperties["width"];
 };
 
-const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
+const FrameComponent1: NextPage<FrameComponent1Type> = ({
+  className = "",
+  frameDivFlex,
+  frameDivWidth,
+  logoVerafy4,
+}) => {
+  const frameDiv1Style: CSSProperties = useMemo(() => {
+    return {
+      flex: frameDivFlex,
+      width: frameDivWidth,
+    };
+  }, [frameDivFlex, frameDivWidth]);
+
   const router = useRouter();
 
   const onLogoVerafyClick = useCallback(() => {
@@ -19,7 +36,10 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
   }, [router]);
 
   return (
-    <div className={[styles.frameParent, className].join(" ")}>
+    <div
+      className={[styles.frameParent, className].join(" ")}
+      style={frameDiv1Style}
+    >
       <div className={styles.logoVerafyParent}>
         <div className={styles.logoVerafy} onClick={onLogoVerafyClick} />
         <Image
@@ -28,7 +48,7 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
           width={120}
           height={120}
           alt=""
-          src="/logo-verafy-4@2x.png"
+          src={logoVerafy4}
         />
       </div>
       <div className={styles.tokenomicsButtonWrapper}>

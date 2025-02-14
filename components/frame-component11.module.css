@@ -1,0 +1,227 @@
+.vectorIcon {
+  align-self: stretch;
+  height: 947px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.vectorWrapper {
+  margin-left: -1166px;
+  height: 1178px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 822px;
+  max-width: 113%;
+}
+.maskGroupIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frameChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  right: -2px;
+  bottom: -2px;
+  left: 0px;
+  box-shadow: 0px 4px 42px rgba(0, 255, 242, 0.22);
+  backdrop-filter: blur(40px);
+  border-radius: var(--br-5xl);
+  background-color: var(--color-gray-200);
+  border: 1px solid var(--blue-green-gradient);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.maskGroupParent {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+.poweringTheNetwork {
+  margin: 0;
+  width: 340px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  font-family: inherit;
+  background: linear-gradient(90deg, #00fff2, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  z-index: 2;
+}
+.over35mStaked {
+  margin: 0;
+}
+.over35mStakedContainer1 {
+  width: 100%;
+}
+.over35mStakedContainer {
+  width: 339px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 32px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  min-height: 224px;
+  max-width: 100%;
+  z-index: 2;
+}
+.frameContainer {
+  width: 419px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-61xl) var(--padding-xl) var(--padding-80xl)
+    var(--padding-29xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.frameGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-61xl);
+  min-width: 730px;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0px var(--padding-576xl);
+  box-sizing: border-box;
+  gap: var(--gap-325xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+
+@media screen and (max-width: 1875px) {
+  .vectorIcon {
+    align-self: stretch;
+    width: auto;
+  }
+
+  .vectorWrapper {
+    flex: 1;
+    min-width: 100%;
+  }
+
+  .frameGroup {
+    flex: 1;
+    min-width: 100%;
+  }
+
+  .frameParent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .vectorWrapper {
+    min-width: 100%;
+  }
+
+  .frameGroup {
+    min-width: 100%;
+  }
+
+  .frameParent {
+    gap: var(--gap-153xl);
+    padding-left: var(--padding-278xl);
+    padding-right: var(--padding-278xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 950px) {
+  .vectorWrapper {
+    min-width: 100%;
+  }
+
+  .poweringTheNetwork {
+    font-size: var(--font-size-7xl);
+  }
+
+  .frameContainer {
+    padding-top: var(--padding-33xl);
+    padding-bottom: var(--padding-45xl);
+    box-sizing: border-box;
+  }
+
+  .frameGroup {
+    gap: var(--gap-21xl);
+    min-width: 100%;
+  }
+
+  .frameParent {
+    gap: var(--gap-67xl);
+    padding-left: var(--padding-129xl);
+    padding-right: var(--padding-129xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .vectorWrapper {
+    min-width: 100%;
+  }
+
+  .poweringTheNetwork {
+    font-size: var(--font-size-lgi);
+  }
+
+  .frameContainer {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  .frameGroup {
+    gap: var(--gap-xl);
+    min-width: 100%;
+  }
+
+  .frameParent {
+    gap: var(--gap-24xl);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
