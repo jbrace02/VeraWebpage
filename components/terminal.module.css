@@ -1,0 +1,49 @@
+.wrapper {
+  height: 727.5px;
+  width: 1244px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.socialConsoleIcon {
+  align-self: stretch;
+  flex: 1;
+  border-radius: 0px 0px var(--br-xs) var(--br-xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.socialConsoleWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 205.5px 0px 0px;
+}
+.terminal {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0.1px;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+  row-gap: 20px;
+}
+
+@media screen and (max-width: 1225px) {
+  .terminal {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .socialConsoleWrapper {
+    padding-top: 134px;
+    box-sizing: border-box;
+  }
+}

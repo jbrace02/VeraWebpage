@@ -1,0 +1,315 @@
+.stakingIcon {
+  position: absolute;
+  top: 123px;
+  left: 0px;
+  width: 822px;
+  height: 947px;
+}
+.abstractGreenBackgroundLigh {
+  position: absolute;
+  top: 1449px;
+  left: 43px;
+  width: 1449px;
+  height: 812.2px;
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+  display: none;
+  mix-blend-mode: color-dodge;
+  z-index: 1;
+}
+.stakingIconParent {
+  align-self: stretch;
+  height: 1449px;
+  position: relative;
+  flex-shrink: 0;
+}
+.stakingImageParent {
+  margin-left: -909px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px 0px var(--padding-12xl);
+  box-sizing: border-box;
+  min-width: 855.2px;
+  max-width: 100%;
+}
+.theTruthIs {
+  margin: 0;
+  align-self: stretch;
+  height: 98px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  background: linear-gradient(90deg, #00fff2, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  flex-shrink: 0;
+  text-shadow: 0px 0px 75.2px rgba(39, 255, 87, 0.86),
+    0px 4px 7px rgba(39, 255, 87, 0.53);
+}
+.truthchainVerified {
+  flex: 1;
+  position: relative;
+  line-height: 34px;
+  background: linear-gradient(90deg, #00fff2, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  text-shadow: 0px 4px 23px rgba(0, 255, 242, 0.4);
+  max-width: 100%;
+}
+.stakingDescription {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-109xl) 0px var(--padding-110xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-5xl);
+}
+.stakingTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.backgroundShape {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-5xl);
+  width: 100%;
+  height: 100%;
+}
+.backgroundShapeWrapper {
+  height: 705px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.stakingBackgroundParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-221xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.stakingTruthSol {
+  margin: 0;
+  align-self: stretch;
+  height: 98px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  background: linear-gradient(90deg, #00fff2, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  flex-shrink: 0;
+  text-shadow: 0px 0px 75.2px rgba(39, 255, 87, 0.86),
+    0px 4px 7px rgba(39, 255, 87, 0.53);
+  z-index: 3;
+}
+.truthchainVerified1 {
+  flex: 1;
+  position: relative;
+  line-height: 34px;
+  background: linear-gradient(90deg, #00fff2, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  text-shadow: 0px 4px 23px rgba(0, 255, 242, 0.4);
+  max-width: 100%;
+  z-index: 3;
+}
+.stakingTitleParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-61xl);
+  min-width: 1244.2px;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.stakingImageParentParent {
+  width: 1582.2px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0px 0px 0px var(--padding-319xl);
+  box-sizing: border-box;
+  gap: var(--gap-34xl-8);
+  max-width: 100%;
+}
+.contentFooterParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px var(--padding-lgi) 0px 0px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.transparentShapeWrapper {
+  height: 419px;
+  flex: 1;
+  position: relative;
+  min-width: 409px;
+  max-width: 100%;
+  z-index: 3;
+}
+.transparentImmutableUnstop {
+  position: relative;
+  letter-spacing: -0.02em;
+  background: linear-gradient(90deg, #00fff2, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 3;
+}
+.aBlockchainPoweredForce {
+  width: 535px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 32px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  max-height: 96px;
+  word-break: break-word;
+  z-index: 3;
+}
+.transparentImmutableUnstopParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+}
+.frameWrapper {
+  width: 560px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-30xl) 0px 0px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameParent {
+  width: 1264px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-56xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-inter);
+}
+.contentFooter {
+  position: absolute;
+  top: 1400px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-221xl);
+  box-sizing: border-box;
+  gap: var(--gap-61xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-77xl);
+  color: var(--color-white);
+  font-family: var(--font-digital-7);
+}
+
+@media screen and (max-width: 1850px) {
+  .stakingImageParent {
+    flex: 1;
+  }
+
+  .stakingTitleParent {
+    flex: 1;
+    min-width: 100%;
+  }
+
+  .stakingImageParentParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .stakingImageParent {
+    min-width: 100%;
+  }
+
+  .frameWrapper {
+    flex: 1;
+  }
+
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 925px) {
+  .theTruthIs {
+    font-size: var(--font-size-29xl);
+  }
+
+  .stakingTruthSol {
+    font-size: var(--font-size-29xl);
+  }
+
+  .transparentImmutableUnstop {
+    font-size: var(--font-size-7xl);
+  }
+
+  .frameWrapper {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .theTruthIs {
+    font-size: var(--font-size-10xl);
+  }
+
+  .truthchainVerified {
+    font-size: var(--font-size-lgi);
+    line-height: 27px;
+  }
+
+  .stakingTruthSol {
+    font-size: var(--font-size-10xl);
+  }
+
+  .truthchainVerified1 {
+    font-size: var(--font-size-lgi);
+    line-height: 27px;
+  }
+
+  .transparentShapeWrapper {
+    min-width: 100%;
+  }
+
+  .transparentImmutableUnstop {
+    font-size: var(--font-size-lgi);
+  }
+}

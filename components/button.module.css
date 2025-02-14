@@ -1,0 +1,24 @@
+.tokenomics {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 20px;
+  font-weight: 500;
+  color: inherit;
+}
+.root {
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-5xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.root[data-property1="on klick"] {
+  background-color: var(--color-gray-300);
+  border: 1px solid var(--gradient-outline);
+}

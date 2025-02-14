@@ -1,0 +1,39 @@
+.copyCa {
+  text-decoration: none;
+  height: 24px;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 24px;
+  font-weight: 500;
+  color: inherit;
+  display: flex;
+  align-items: center;
+}
+.contentCopy24dpUndefinedFiIcon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.copyContent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.buttonSmallCa {
+  border-radius: var(--br-5xs);
+  border: 2px solid var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-13xl);
+  z-index: 2;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

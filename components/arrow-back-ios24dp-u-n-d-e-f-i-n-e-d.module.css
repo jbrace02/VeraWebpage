@@ -1,0 +1,19 @@
+.vectorIcon {
+  position: absolute;
+  height: 83.33%;
+  width: 49.17%;
+  top: 8.33%;
+  right: 25.83%;
+  bottom: 8.33%;
+  left: 25%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.arrowBackIos24dpUndefined {
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+}

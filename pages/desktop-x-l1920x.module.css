@@ -1,0 +1,52 @@
+.bookmarkBorderIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.navigation {
+  width: 444px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.background {
+  align-self: stretch;
+  height: 887px;
+  position: relative;
+  background-color: var(--color-gainsboro-100);
+}
+.desktopXl1920x1080 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-51xl) var(--padding-191xl);
+  box-sizing: border-box;
+  gap: var(--gap-18xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 958px) {
+  .desktopXl1920x1080 {
+    padding-left: var(--padding-86xl);
+    padding-right: var(--padding-86xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 479px) {
+  .desktopXl1920x1080 {
+    gap: var(--gap-lg);
+    padding-left: var(--padding-33xl);
+    padding-right: var(--padding-33xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,675 @@
+.buttonParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0px 0px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.buttonSmallCaParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.frameGroup {
+  width: 1128px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.truthTokenomics {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  background: linear-gradient(90deg, #00fff2, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 0px 75.2px rgba(39, 255, 87, 0.86),
+    0px 4px 7px rgba(39, 255, 87, 0.53);
+  z-index: 4;
+}
+.truthchainVerified {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 34px;
+  font-weight: 400;
+  font-family: inherit;
+  background: linear-gradient(90deg, #00fff2, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 4px 23px rgba(0, 255, 242, 0.4);
+  z-index: 4;
+}
+.headerBg4Icon {
+  position: absolute;
+  top: 0px;
+  left: -7px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.abstractGreenBackgroundLigh {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.bgChild {
+  position: absolute;
+  top: 0px;
+  left: 1px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.bg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.44) 27.5%,
+    #000
+  );
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+.headerBg4Parent {
+  height: 1080px;
+  width: 1919.6px;
+  position: absolute;
+  margin: 0 !important;
+  top: -504px;
+  left: -595px;
+}
+.aFairAnd {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  background: linear-gradient(90deg, #00fff2, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.atTruthchainOur {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  font-weight: 500;
+}
+.aFairAndTransparentLaunchParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.noPreSalesNo {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 32px;
+  font-weight: 500;
+}
+.toBuildLongTerm {
+  margin: 0;
+}
+.frameParent2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+  z-index: 4;
+}
+.frameParent1 {
+  width: 730px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.frameWrapper1 {
+  width: 960px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-inter);
+}
+.truthchainVerifiedFactsOnParent {
+  width: 986px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-61xl);
+  max-width: 100%;
+}
+.frameDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-5xl);
+}
+.truthTokenomicsParent {
+  width: 1244px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.frameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-2xs) var(--padding-xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.fairLaunchAlways1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  font-family: inherit;
+  background: linear-gradient(90deg, #00fff2, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 1;
+}
+.noPreSalesNo1 {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 32px;
+  font-weight: 500;
+  z-index: 1;
+}
+.fairLaunchAlwaysGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+}
+.frameWrapper3 {
+  width: 349px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-45xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameItem {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  border-radius: 50%;
+  background-color: var(--color-mediumseagreen-100);
+  z-index: 4;
+}
+.div {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  min-width: 55px;
+  z-index: 5;
+}
+.frameInner {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 50%;
+  background-color: var(--color-steelblue);
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+.div1 {
+  position: absolute;
+  top: 75.7px;
+  left: 235px;
+  display: inline-block;
+  width: 49.8px;
+  height: 22.3px;
+  z-index: 4;
+}
+.ellipseGroup {
+  height: 373.9px;
+  width: 373.9px;
+  position: absolute;
+  margin: 0 !important;
+  top: -181.1px;
+  left: -283.8px;
+}
+.parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.ellipseDiv {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 50%;
+  background-color: var(--color-darkseagreen);
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.frameChild1 {
+  height: 373.9px;
+  width: 373.9px;
+  position: absolute;
+  margin: 0 !important;
+  right: -240.7px;
+  bottom: -210.3px;
+  border-radius: 50%;
+  background-color: var(--color-teal);
+  z-index: 1;
+}
+.div2 {
+  flex: 1;
+  position: relative;
+  z-index: 5;
+}
+.ellipseParent1 {
+  position: absolute;
+  top: 164px;
+  left: 66.1px;
+  width: 56.6px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ellipseContainer {
+  height: 373.9px;
+  width: 373.9px;
+  position: absolute;
+  margin: 0 !important;
+  top: -272.8px;
+  left: -175.8px;
+}
+.div3 {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  z-index: 5;
+}
+.frameParent4 {
+  width: 56.6px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.frameWrapper4 {
+  width: 261.4px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.ellipseParent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-176xl-4) var(--padding-34xl) var(--padding-74xl-1);
+  box-sizing: border-box;
+  gap: var(--gap-50xl-4);
+  height: 100%;
+}
+.frameChild2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 50%;
+  background-color: var(--color-mediumseagreen-200);
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+}
+.div4 {
+  position: absolute;
+  top: 25.5px;
+  left: 176.6px;
+  display: inline-block;
+  width: 26.8px;
+  height: 21.8px;
+  min-width: 26.8px;
+  z-index: 5;
+}
+.ellipseParent2 {
+  position: absolute;
+  top: 0.1px;
+  left: 12px;
+  width: 373.9px;
+  height: 373.9px;
+  font-size: var(--font-size-5xl);
+}
+.frameParent3 {
+  height: 402.5px;
+  width: 402.8px;
+  position: relative;
+  max-width: 100%;
+  text-align: center;
+  color: var(--dark-border-disabled);
+  font-family: var(--font-digital-7);
+}
+.sectionTemplate {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--color-mediumseagreen-200);
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.sectionTemplateWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0px 0px;
+}
+.headline {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 75px;
+  z-index: 1;
+}
+.frameParent6 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.sectionTemplate1 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--color-steelblue);
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.sectionTemplate2 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--color-mediumseagreen-100);
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.sectionTemplate3 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--color-darkseagreen);
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameParent5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.frameWrapper5 {
+  height: 281.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-vt323);
+}
+.groupDiv {
+  width: 1241px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-29xl) var(--padding-111xl) var(--padding-35xl-5)
+    var(--padding-70xl);
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.frameWrapper2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-inter);
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-129xl);
+  flex-shrink: 0;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-77xl);
+  color: var(--color-white);
+  font-family: var(--font-digital-7);
+}
+
+@media screen and (max-width: 1850px) {
+  .groupDiv {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+
+  .truthchainVerifiedFactsOnParent {
+    gap: var(--gap-21xl);
+  }
+
+  .groupDiv {
+    padding-left: var(--padding-25xl);
+    padding-right: var(--padding-46xl);
+    box-sizing: border-box;
+  }
+
+  .frameParent {
+    gap: var(--gap-55xl);
+  }
+}
+@media screen and (max-width: 925px) {
+  .buttonParent {
+    flex-wrap: wrap;
+  }
+
+  .buttonSmallCaParent {
+    flex-wrap: wrap;
+  }
+
+  .truthTokenomics {
+    font-size: var(--font-size-29xl);
+  }
+
+  .truthchainVerifiedFactsOnParent {
+    gap: var(--gap-xl);
+  }
+
+  .fairLaunchAlways1 {
+    font-size: var(--font-size-7xl);
+  }
+
+  .div {
+    font-size: var(--font-size-7xl);
+    line-height: 18px;
+  }
+
+  .div1 {
+    font-size: var(--font-size-7xl);
+  }
+
+  .div2 {
+    font-size: var(--font-size-7xl);
+    line-height: 18px;
+  }
+
+  .groupDiv {
+    padding: var(--padding-12xl) var(--padding-13xl) var(--padding-16xl)
+      var(--padding-3xl);
+    box-sizing: border-box;
+  }
+
+  .frameParent {
+    gap: var(--gap-18xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .truthTokenomics {
+    font-size: var(--font-size-10xl);
+  }
+
+  .truthchainVerified {
+    font-size: var(--font-size-lgi);
+    line-height: 27px;
+  }
+
+  .fairLaunchAlways1 {
+    font-size: var(--font-size-lgi);
+  }
+
+  .div {
+    font-size: var(--font-size-lgi);
+    line-height: 13px;
+  }
+
+  .div1 {
+    font-size: var(--font-size-lgi);
+  }
+
+  .div2 {
+    font-size: var(--font-size-lgi);
+    line-height: 13px;
+  }
+
+  .div3 {
+    font-size: var(--font-size-lgi);
+  }
+
+  .ellipseParent {
+    gap: var(--gap-16xl);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  .div4 {
+    font-size: var(--font-size-lgi);
+    line-height: 17px;
+  }
+
+  .headline {
+    font-size: var(--font-size-lgi);
+    line-height: 19px;
+  }
+
+  .frameParent {
+    gap: var(--gap-lg);
+  }
+}

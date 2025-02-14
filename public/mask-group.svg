@@ -1,0 +1,22 @@
+<svg width="220" height="506" viewBox="0 0 220 506" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_33_121" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-1" y="-1" width="421" height="507">
+<foreignObject x="0" y="0" width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(7px);clip-path:url(#bgblur_0_33_121_clip_path);height:100%;width:100%"></div></foreignObject><rect data-figma-bg-blur-radius="14" x="-0.5" y="-0.5" width="420" height="506" rx="24.5" fill="#232A30" stroke="url(#paint0_radial_33_121)"/>
+</mask>
+<g mask="url(#mask0_33_121)">
+<g filter="url(#filter0_f_33_121)">
+<path d="M389 557C471.843 557 539 502.379 539 435C539 367.621 471.843 313 389 313C306.157 313 239 367.621 239 435C239 502.379 306.157 557 389 557Z" fill="#05A3C9" fill-opacity="0.4"/>
+</g>
+</g>
+<defs>
+<clipPath id="bgblur_0_33_121_clip_path"><rect transform="translate(0 0)" x="-0.5" y="-0.5" width="420" height="506" rx="24.5"/>
+</clipPath><filter id="filter0_f_33_121" x="145" y="219" width="488" height="432" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="47" result="effect1_foregroundBlur_33_121"/>
+</filter>
+<radialGradient id="paint0_radial_33_121" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(209.5 252.5) rotate(90) scale(252.5 209.5)">
+<stop stop-color="#00FFF2"/>
+<stop offset="1" stop-color="#FC4D9C"/>
+</radialGradient>
+</defs>
+</svg>

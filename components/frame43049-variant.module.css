@@ -1,0 +1,25 @@
+.enter {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 24px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.frame43049variant3 {
+  height: 74px;
+  width: 400px;
+  border-radius: var(--br-5xs);
+  background-color: var(--dark-border-disabled);
+  border: 4px solid var(--gradient-outline);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs);
+  cursor: pointer;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-digital-7);
+}

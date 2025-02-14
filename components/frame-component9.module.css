@@ -1,0 +1,276 @@
+.truthnodeIsntJust {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  font-weight: 500;
+}
+.validatorMetricsSnapshot {
+  margin: 0;
+}
+.validatorMetricsSnapshotContainer {
+  align-self: stretch;
+  height: 198px;
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  background: linear-gradient(90deg, #00fff2, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+}
+.voteAccountTruthueykd2usmaq {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  background: linear-gradient(90deg, #00fff2, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 2;
+}
+.truthnodeEarnsFees {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  font-weight: 500;
+  z-index: 2;
+}
+.voteAccountTruthueykd2usmaqParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.everyTokenAnd {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  font-weight: 500;
+  z-index: 2;
+}
+.withBuiltInIncentives {
+  width: 730px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  z-index: 2;
+}
+.sustainableGrowthParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.truthnodeIsntJustAValidatParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.vectorIcon {
+  width: 11.8px;
+  height: 20px;
+  position: relative;
+}
+.vectorWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0px 0px;
+}
+.goBack {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 78px;
+}
+.buttonSecondary {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  cursor: pointer;
+}
+.buttonSmallCa {
+  align-self: stretch;
+  box-shadow: 0px 1px 12px #00fff2, 0px 0px 6px #00fff2 inset;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-300);
+  border: 1px solid var(--gradient-outline);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-11xl) var(--padding-sm)
+    var(--padding-13xl);
+  z-index: 2;
+}
+.buttonSmallCaWrapper {
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-246xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-xl);
+}
+.frameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-141xl);
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.frameWrapper {
+  width: 730px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-112xl);
+  box-sizing: border-box;
+  min-height: 1215px;
+  max-width: 100%;
+}
+.vectorIcon1 {
+  height: 947px;
+  width: 822px;
+  position: relative;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.frameGroup {
+  width: 1325px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-35xl);
+  max-width: 100%;
+}
+.frameChild {
+  align-self: stretch;
+  width: 1501px;
+  position: relative;
+  border-top: 1px solid var(--blue-gradient);
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 2;
+}
+.lineWrapper {
+  align-self: stretch;
+  height: 1px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 1730px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-12xs) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-22xl);
+  max-width: 100%;
+}
+.tokenomicsXl1920x1080Inner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+
+@media screen and (max-width: 1850px) {
+  .frameWrapper {
+    flex: 1;
+  }
+
+  .vectorIcon1 {
+    flex: 1;
+  }
+
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .frameWrapper {
+    padding-bottom: var(--padding-66xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 925px) {
+  .buttonSmallCaWrapper {
+    padding-left: var(--padding-113xl);
+    padding-right: var(--padding-113xl);
+    box-sizing: border-box;
+  }
+
+  .frameContainer {
+    gap: var(--gap-61xl);
+  }
+
+  .frameWrapper {
+    padding-bottom: var(--padding-36xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+
+  .frameGroup {
+    gap: var(--gap-8xl);
+  }
+
+  .frameParent {
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .goBack {
+    font-size: var(--font-size-base);
+    line-height: 19px;
+  }
+
+  .buttonSmallCaWrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  .frameContainer {
+    gap: var(--gap-21xl);
+  }
+}

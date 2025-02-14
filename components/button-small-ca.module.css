@@ -1,0 +1,40 @@
+.vectorIcon {
+  width: 11.8px;
+  height: 20px;
+  position: relative;
+}
+.vectorWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0px 0px;
+}
+.goBack {
+  text-decoration: underline;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 24px;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 70px;
+}
+.buttonSmallCa {
+  box-shadow: 0px 1px 12px #00fff2, 0px 0px 6px #00fff2 inset;
+  border-radius: var(--br-5xs);
+  background-color: var(--dark-border-disabled);
+  border: 1px solid var(--gradient-outline);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) 29px var(--padding-sm) var(--padding-13xl);
+  gap: var(--gap-base);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

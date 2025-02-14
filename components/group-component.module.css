@@ -1,0 +1,45 @@
+.vectorIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.abstractGreenBackgroundLigh {
+  width: 1901px;
+  height: 1066px;
+  position: relative;
+  transform: rotate(90deg);
+  display: none;
+  mix-blend-mode: color-dodge;
+  max-width: 100%;
+}
+.contentCardParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px var(--padding-60xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.vectorParent {
+  position: absolute;
+  top: 2694px;
+  right: -610px;
+  width: 1151px;
+  height: 1901px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-114xl) var(--padding-310xl) var(--padding-36xl) 0px;
+  box-sizing: border-box;
+  gap: var(--gap-242xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

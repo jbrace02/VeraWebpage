@@ -1,0 +1,85 @@
+.maskGroupIcon {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 419px;
+  height: 505px;
+}
+.contentCardBackground {
+  position: absolute;
+  top: 0px;
+  left: 3px;
+  backdrop-filter: blur(40px);
+  border-radius: var(--br-5xl);
+  background-color: var(--color-gray-200);
+  border: 1px solid var(--blue-green-gradient);
+  box-sizing: border-box;
+  width: 421px;
+  height: 507px;
+}
+.maskGroupParent {
+  height: 100%;
+  width: 220px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 0;
+}
+.fullyTamperProofBlockchain {
+  width: 340px;
+  height: 78px;
+  position: relative;
+  letter-spacing: -0.02em;
+  display: flex;
+  background: linear-gradient(90deg, #00fff2, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  align-items: center;
+  flex-shrink: 0;
+}
+.truthShouldEvolve {
+  margin: 0;
+}
+.aLivingOpenSource {
+  margin: 0;
+}
+.factsShouldBeContainer {
+  width: 100%;
+}
+.factsShouldBeContainer1 {
+  width: 337px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 28px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.fullyTamperProofBlockchainParent {
+  height: 258px;
+  width: 339px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  z-index: 1;
+}
+.contentCard {
+  height: 505px;
+  width: 422px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-61xl) var(--padding-21xl) var(--padding-148xl)
+    var(--padding-24xl);
+  box-sizing: border-box;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

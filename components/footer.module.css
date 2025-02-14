@@ -1,0 +1,196 @@
+.frameChild {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-top: 1px solid var(--blue-gradient);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.footerContentInner {
+  align-self: stretch;
+  height: 1px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0px var(--padding-10xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.logoVerafy5Icon {
+  width: 120px;
+  height: 120px;
+  position: relative;
+  object-fit: cover;
+}
+.logoContainer {
+  width: 187px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.disclaimer {
+  width: 316.2px;
+  height: 35px;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 24px;
+  background: linear-gradient(90deg, #00fff2, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.theInformationProvided {
+  margin: 0;
+}
+.theInformationProvidedContainer {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: -0.02em;
+  line-height: 24px;
+  font-family: var(--font-inter);
+}
+.disclaimerParent {
+  width: 602px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.contractAddress {
+  align-self: stretch;
+  height: 35px;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 24px;
+  background: linear-gradient(90deg, #00fff2, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.gmuphpe93kctjzrc7nj2keedzrt5db {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: -0.02em;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  word-break: break-all;
+}
+.linkItems {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.joinOneOf {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: -0.02em;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--font-inter);
+}
+.linkItems1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-5xl);
+  gap: var(--gap-base);
+}
+.socialIcons {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.subtractIcon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+}
+.socialIconsParent {
+  width: 224px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.footerLinks {
+  width: 345px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+}
+.footerInfo {
+  width: 1490px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0px var(--padding-xl) 0px 0px;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  gap: var(--gap-xl);
+}
+.footerContent {
+  width: 1523px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-12xs) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-60xl-5);
+  max-width: 100%;
+}
+.footer {
+  position: absolute;
+  top: 8133px;
+  left: 0px;
+  width: 1743px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-digital-7);
+}
+
+@media screen and (max-width: 1400px) {
+  .footerInfo {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .disclaimer {
+    font-size: var(--font-size-lgi);
+    line-height: 19px;
+  }
+
+  .contractAddress {
+    font-size: var(--font-size-lgi);
+    line-height: 19px;
+  }
+}

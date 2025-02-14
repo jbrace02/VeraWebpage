@@ -1,0 +1,41 @@
+.microphoneIconChild {
+  position: absolute;
+  top: calc(50% + 8px);
+  left: calc(50% - 3px);
+  border-radius: var(--br-12xs-5);
+  background-color: var(--dark-text-interactive);
+  width: 6px;
+  height: 1px;
+}
+.microphoneIconItem {
+  position: absolute;
+  top: calc(50% + 7px);
+  left: calc(50% - 1px);
+  background-color: var(--dark-text-interactive);
+  width: 2px;
+  height: 2px;
+}
+.microphoneIconInner {
+  position: absolute;
+  top: calc(50% - 1.5px);
+  left: calc(50% - 4.5px);
+  width: 9px;
+  height: 6px;
+}
+.rectangleDiv {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: calc(50% - 3px);
+  border-radius: var(--br-10xs);
+  border: 1px solid var(--dark-text-interactive);
+  box-sizing: border-box;
+  width: 6px;
+  height: 11px;
+}
+.microphoneIcon {
+  width: 16px;
+  position: relative;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}

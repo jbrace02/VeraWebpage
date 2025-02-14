@@ -1,0 +1,96 @@
+.truthNeedsDefenders {
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  background: linear-gradient(90deg, #00fff2, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.joinTheCommunity {
+  margin: 0;
+}
+.joinTheCommunityContainer {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 32px;
+  font-weight: 500;
+}
+.truthNeedsDefendersHeresParent {
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.howCanI {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  letter-spacing: -0.02em;
+  display: flex;
+  background: linear-gradient(90deg, #00fff2, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  align-items: center;
+  width: 991px;
+}
+.remove24dpUndefinedFill0WgIcon {
+  position: absolute;
+  top: 2px;
+  left: 1171px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.howCanIHelpParent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+.frameWrapper {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 29px;
+  font-size: var(--font-size-5xl);
+}
+.frameParent {
+  height: 208px;
+  width: 1195px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.faqCards {
+  width: 1245px;
+  box-shadow: 0px 4px 42px rgba(0, 255, 242, 0.22);
+  border-radius: var(--br-xs);
+  background-color: var(--dark-background-main);
+  border: 1px solid var(--blue-green-gradient);
+  box-sizing: border-box;
+  max-width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xl);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+
+@media screen and (max-width: 450px) {
+  .howCanI {
+    font-size: var(--font-size-lgi);
+  }
+}

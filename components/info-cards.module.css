@@ -1,0 +1,20 @@
+.infoCardsChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.infoCards {
+  width: 1241px;
+  height: 505px;
+  max-width: 100%;
+  line-height: normal;
+  letter-spacing: normal;
+}

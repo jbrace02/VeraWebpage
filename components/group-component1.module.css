@@ -1,0 +1,54 @@
+.vectorIcon {
+  width: 822px;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+}
+.abstractGreenBackgroundLigh {
+  width: 1901px;
+  height: 1066px;
+  position: relative;
+  transform: rotate(90deg);
+  display: none;
+  mix-blend-mode: color-dodge;
+  max-width: 100%;
+}
+.tamperProof {
+  width: 327px;
+  overflow-x: auto;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0px 0px;
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+.tamperProofWrapper {
+  width: 647px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.vectorParent {
+  position: absolute;
+  top: 2694px;
+  right: -664px;
+  width: 1151px;
+  height: 1901px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-114xl) 0px var(--padding-36xl);
+  box-sizing: border-box;
+  gap: var(--gap-242xl);
+  max-width: 100%;
+}
