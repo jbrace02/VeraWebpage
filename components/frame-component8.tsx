@@ -33,15 +33,7 @@ const FrameComponent8: NextPage<FrameComponent8Type> = ({ className = "" }) => {
           </div>
         </div>
         <div className={styles.buttonSmallCaParent}>
-          <ButtonSmallCa1
-            property1="Default"
-            buttonSmallCaPosition="unset"
-            buttonSmallCaTop="unset"
-            buttonSmallCaLeft="unset"
-            copyCaHeight="24px"
-            copyCaDisplay="flex"
-            copyCaAlignItems="center"
-          />
+          <ButtonSmallCa1 property1="Default" />
           <Button1
             property1="Default"
             buttonWidth="242px"
@@ -75,6 +67,7 @@ const FrameComponent8: NextPage<FrameComponent8Type> = ({ className = "" }) => {
                       width={1920}
                       height={1080}
                       alt=""
+                      src="/header-bg-1@2x.png"
                     />
                     <div className={styles.bg}>
                       <div className={styles.abstractGreenBackgroundLigh} />
@@ -83,6 +76,7 @@ const FrameComponent8: NextPage<FrameComponent8Type> = ({ className = "" }) => {
                         width={1918}
                         height={1076}
                         alt=""
+                        src="/rectangle-67.svg"
                       />
                     </div>
                   </div>
@@ -217,6 +211,7 @@ const FrameComponent8: NextPage<FrameComponent8Type> = ({ className = "" }) => {
             width={1241}
             height={505}
             alt=""
+            src="/group-431012@2x.png"
           />
           <div className={styles.frameWrapper3}>
             <div className={styles.fairLaunchAlwaysGroup}>

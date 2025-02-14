@@ -50,7 +50,7 @@ const ButtonSmallCa1: NextPage<ButtonSmallCa1Type> = ({
       data-property1={property1}
       style={buttonSmallCaStyle}
     >
-      <div className={styles.copyContent}>
+      <div className={styles.copyCaParent}>
         <a className={styles.copyCa} style={copyCaStyle}>
           copy ca
         </a>

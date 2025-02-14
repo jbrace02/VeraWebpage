@@ -214,7 +214,7 @@
   font-family: var(--font-inter);
 }
 
-@media screen and (max-width: 1850px) {
+@media screen and (max-width: 1875px) {
   .frameWrapper {
     flex: 1;
   }
@@ -233,7 +233,7 @@
     box-sizing: border-box;
   }
 }
-@media screen and (max-width: 925px) {
+@media screen and (max-width: 950px) {
   .buttonSmallCaWrapper {
     padding-left: var(--padding-113xl);
     padding-right: var(--padding-113xl);

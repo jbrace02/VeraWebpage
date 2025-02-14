@@ -52,7 +52,15 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
       </div>
       <div className={styles.frameWrapper}>
         <div className={styles.buttonSmallCaParent}>
-          <ButtonSmallCa1 property1="Default" />
+          <ButtonSmallCa1
+            property1="Default"
+            buttonSmallCaPosition="unset"
+            buttonSmallCaTop="unset"
+            buttonSmallCaLeft="unset"
+            copyCaHeight="24px"
+            copyCaDisplay="flex"
+            copyCaAlignItems="center"
+          />
           <Button1
             property1="Default"
             buttonWidth="242px"

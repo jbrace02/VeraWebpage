@@ -21,6 +21,7 @@ const FrameComponent10: NextPage<FrameComponent10Type> = ({
             width={120}
             height={120}
             alt=""
+            src="/logo-verafy-4@2x.png"
           />
         </div>
         <div className={styles.disclaimerParent}>
@@ -72,6 +73,7 @@ const FrameComponent10: NextPage<FrameComponent10Type> = ({
               width={32}
               height={32}
               alt=""
+              src="/social-icons2.svg"
             />
             <Image
               className={styles.socialIcons}
@@ -79,6 +81,7 @@ const FrameComponent10: NextPage<FrameComponent10Type> = ({
               width={32}
               height={32}
               alt=""
+              src="/social-icons-12.svg"
             />
             <Image
               className={styles.socialIcons2}
@@ -86,6 +89,7 @@ const FrameComponent10: NextPage<FrameComponent10Type> = ({
               width={32}
               height={32}
               alt=""
+              src="/social-icons-2.svg"
             />
             <Image
               className={styles.subtractIcon}
@@ -93,6 +97,7 @@ const FrameComponent10: NextPage<FrameComponent10Type> = ({
               width={32}
               height={32}
               alt=""
+              src="/subtract2.svg"
             />
           </div>
         </div>

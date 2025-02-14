@@ -207,6 +207,9 @@
   padding: 0px var(--padding-2xs) var(--padding-xs);
   box-sizing: border-box;
   max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-77xl);
+  font-family: var(--font-digital-7);
 }
 .frameChild {
   height: 100%;
@@ -532,9 +535,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   max-width: 100%;
-  text-align: left;
   font-size: var(--font-size-13xl);
-  font-family: var(--font-inter);
 }
 .frameParent {
   align-self: stretch;
@@ -545,13 +546,13 @@
   gap: var(--gap-129xl);
   flex-shrink: 0;
   max-width: 100%;
-  text-align: center;
-  font-size: var(--font-size-77xl);
+  text-align: left;
+  font-size: var(--font-size-base);
   color: var(--color-white);
-  font-family: var(--font-digital-7);
+  font-family: var(--font-inter);
 }
 
-@media screen and (max-width: 1850px) {
+@media screen and (max-width: 1875px) {
   .groupDiv {
     flex-wrap: wrap;
   }
@@ -575,7 +576,7 @@
     gap: var(--gap-55xl);
   }
 }
-@media screen and (max-width: 925px) {
+@media screen and (max-width: 950px) {
   .buttonParent {
     flex-wrap: wrap;
   }

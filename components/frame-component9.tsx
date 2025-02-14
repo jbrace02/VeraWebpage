@@ -119,6 +119,7 @@ const FrameComponent9: NextPage<FrameComponent9Type> = ({ className = "" }) => {
                         width={12}
                         height={20}
                         alt=""
+                        src="/vector-11.svg"
                       />
                     </div>
                     <div className={styles.goBack}>Go back</div>
@@ -133,6 +134,7 @@ const FrameComponent9: NextPage<FrameComponent9Type> = ({ className = "" }) => {
             width={822}
             height={947}
             alt=""
+            src="/vector.svg"
           />
         </div>
         <div className={styles.lineWrapper}>

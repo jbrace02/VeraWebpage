@@ -1,0 +1,39 @@
+.veraTease2 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+.intro {
+  position: relative;
+  background-color: var(--dark-border-disabled);
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 859px 760px 147px;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 960px) {
+  .intro {
+    padding-left: var(--padding-361xl);
+    padding-right: var(--padding-361xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 480px) {
+  .intro {
+    padding-left: var(--padding-171xl);
+    padding-right: var(--padding-171xl);
+    box-sizing: border-box;
+  }
+}

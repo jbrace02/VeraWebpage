@@ -16,7 +16,7 @@
   overflow: hidden;
   flex-shrink: 0;
 }
-.copyContent {
+.copyCaParent {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
